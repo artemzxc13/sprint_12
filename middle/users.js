@@ -14,11 +14,11 @@ const users = ({ ...object }) => {
         return object.res.send(user);
       }
       return object.res.status(404).send({
-        message: ' Нет пользователя с таким id',
+        message: ' Нет пользователя с таким id ',
       });
     })
     .catch(() =>
-      object.res.status(500).send({ message: 'Ошибка чтения файла' })
+      object.res.status(500).send({ message: ' Ошибка чтения файла ' })
     );
 };
 

@@ -1,7 +1,7 @@
 {
   "name": "sprint_12",
   "version": "0.0.1",
-  "description": "web server Nodejs and express",
+  "description": "web server NodeJs and expressJs",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
